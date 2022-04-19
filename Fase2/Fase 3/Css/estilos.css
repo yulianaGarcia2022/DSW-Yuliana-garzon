@@ -1,0 +1,36 @@
+ header{
+    display: flex;
+    flex-direction: row;
+    background-color: #e6a9c2c7;
+    padding: 20px;
+    color: rgb(5, 3, 3);
+ } 
+ nav {
+     background-color: rgb(123, 177, 224);
+ }
+ section{
+      display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #030303;
+ }   
+ article {
+     background-color: #F1DDBF ;
+     grid-column: 1/4;
+    
+ }
+aside {
+    background-color: #FAFFAF;
+    padding: 30px;;
+    grid-column:4/5;
+}
+footer {
+    background-color: #e6a9c2c7;
+    color: rgb(2, 2, 2);
+    padding: 10px;
+}      
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
